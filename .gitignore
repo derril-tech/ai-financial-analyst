@@ -1,0 +1,81 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build outputs
+.next/
+dist/
+build/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Database
+*.db
+*.sqlite
+
+# Cache
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Coverage
+coverage/
+.coverage
+htmlcov/
+
+# Docker
+.dockerignore
+
+# Python virtual environments
+venv/
+env/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data files (keep structure, ignore content)
+datasets/raw/*
+!datasets/raw/.gitkeep
+datasets/bronze/*
+!datasets/bronze/.gitkeep
+datasets/silver/*
+!datasets/silver/.gitkeep
+datasets/gold/*
+!datasets/gold/.gitkeep
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Package manager locks (keep pnpm-lock.yaml, ignore others)
+package-lock.json
+yarn.lock
+
+# Alembic
+alembic/versions/*.py
+!alembic/versions/.gitkeep
